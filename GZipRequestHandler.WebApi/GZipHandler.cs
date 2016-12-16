@@ -11,7 +11,7 @@ namespace GZipRequestHandler.WebApi
     /// </summary>
     public class GZipHandler : DelegatingHandler
     {
-        protected override System.Threading.Tasks.Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
+        protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, System.Threading.CancellationToken cancellationToken)
         {
             if (IsRequestCompressed(request))
             {
