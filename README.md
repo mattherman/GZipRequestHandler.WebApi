@@ -8,4 +8,4 @@ The handler is published as a [NuGet package](https://www.nuget.org/packages/GZi
 
 To enable gzip decompression in your Web API project, add the following line to your _Global.asax_ file:
 
-`GlobalConfiguration.Configuration.MessageHandlers.Add(new GZipRequestHandler());`
+`GlobalConfiguration.Configuration.MessageHandlers.Add(new GZipHandler());`
