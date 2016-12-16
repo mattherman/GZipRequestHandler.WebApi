@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GZipRequestHandler.WebApi</id>
+    <version>1.0.0</version>
+    <title>GZipRequestHandler.WebApi</title>
+    <authors>Matthew Herman</authors>
+    <owners>Matthew Herman</owners>
+    <licenseUrl>http://github.com/mattherman/GZipRequestHandler.WebApi/blob/master/LICENSE.md</licenseUrl>
+    <projectUrl>http://github.com/mattherman/GZipRequestHandler.WebApi</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>An ASP.NET Web API message handler that supports decompression of gzip'd data.</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2016</copyright>
+    <tags>asp net web api decompression compression gzip</tags>
+  </metadata>
+</package>
